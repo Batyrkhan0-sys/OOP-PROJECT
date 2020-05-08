@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@../styles/My.css">
+   <children>
+      <AnchorPane layoutY="-8.0" prefHeight="80.0" prefWidth="600.0" style="-fx-background-color: #d42828;">
+         <children>
+            <Label layoutX="281.0" layoutY="21.0" text="1+1">
+               <font>
+                  <Font name="Caladea" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView id="odinPlusOdin" fx:id="odinPlusOdin" fitHeight="237.0" fitWidth="185.0" layoutX="14.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../styles/1+1.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="337.0" prefHeight="41.0" prefWidth="213.0" text="Рейтинг : 8,8" />
+      <Text layoutX="300.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="«1+1» (фр. Intouchables — «Неприкасаемые») — французская трагикомедия 2011 года, основанная на реальных событиях об успешном аристократе Филиппе, который в результате несчастного случая оказывается в инвалидном кресле и берёт себе в качестве помощника чернокожего бывшего преступника — Дрисса. Главные роли исполняют Франсуа Клюзе и Омар Си, удостоенный за эту актёрскую работу национальной премии «Сезар». Премьера во Франции прошла 2 ноября 2011 года. В России фильм вышел в прокат 26 апреля 2012 под названием «1+1»." wrappingWidth="254.89999389648438">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="AnchorPane" stylesheets="@../styles/My.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ClientController">
+   <children>
+      <Text layoutX="235.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fill="WHITE" layoutX="307.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пираты Карибского моря" textAlignment="CENTER" wrappingWidth="136.6708984375">
+         <font>
+            <Font name="Bookman Old Style" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="477.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Титаник" textAlignment="CENTER" wrappingWidth="136.6708984375">
+         <font>
+            <Font name="AdobeDevanagari-BoldItalic" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="155.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Гарри Поттер" textAlignment="CENTER" wrappingWidth="136.6708984375">
+         <font>
+            <Font name="Bookman Old Style" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Легенда" textAlignment="CENTER" wrappingWidth="136.6708984375">
+         <font>
+            <Font name="Bookman Old Style" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="392.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Волк с Уолт-стрит" textAlignment="CENTER" wrappingWidth="136.6708984375">
+         <font>
+            <Font name="AdobeDevanagari-BoldItalic" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="223.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Легенда №17" textAlignment="CENTER" wrappingWidth="136.6708984375">
+         <font>
+            <Font name="AdobeDevanagari-BoldItalic" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="68.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1+1" textAlignment="CENTER" wrappingWidth="136.6708984375">
+         <font>
+            <Font name="AdobeDevanagari-BoldItalic" size="19.0" />
+         </font>
+      </Text>
+      <Button id="odinPlusOdin" fx:id="odinPlusOdin" layoutX="96.0" mnemonicParsing="false" onAction="#initialize" prefHeight="136.0" prefWidth="81.0" />
+      <Button id="legenda17" fx:id="legenda17" layoutX="251.0" mnemonicParsing="false" onAction="#initialize" prefHeight="136.0" prefWidth="81.0" />
+      <Button id="wolf" fx:id="wolf" layoutX="420.0" mnemonicParsing="false" onAction="#initialize" prefHeight="136.0" prefWidth="81.0" />
+      <Button id="legend" fx:id="legend" layoutX="28.0" layoutY="177.0" mnemonicParsing="false" onAction="#initialize" prefHeight="136.0" prefWidth="81.0" />
+      <Button id="potter" fx:id="potter" layoutX="183.0" layoutY="177.0" mnemonicParsing="false" onAction="#initialize" prefHeight="136.0" prefWidth="81.0" />
+      <Button id="pirates" fx:id="pirates" layoutX="335.0" layoutY="177.0" mnemonicParsing="false" onAction="#initialize" prefHeight="136.0" prefWidth="81.0" />
+      <Button id="titanic" fx:id="titanic" layoutX="505.0" layoutY="189.0" mnemonicParsing="false" onAction="#initialize" prefHeight="136.0" prefWidth="81.0" />
+   </children>
+</AnchorPane>
